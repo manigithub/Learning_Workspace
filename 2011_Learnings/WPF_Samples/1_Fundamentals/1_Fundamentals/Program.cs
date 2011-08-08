@@ -5,6 +5,7 @@ using System.Text;
 //Add the below:
 using System.Windows;
 
+//From a Console Application to Windows application
 namespace _1_Fundamentals
 {
     class Program
@@ -12,16 +13,17 @@ namespace _1_Fundamentals
         [STAThread]//Without this Invalid Operation Exception for any WPF program
         static void Main(string[] args)
         {
-            
+            Console.WriteLine("hello");
             Window winHelloWorld = new Window();
             winHelloWorld.Title = "Hello, world";
             winHelloWorld.Content = "I am the Hello world screen";
             //winHelloWorld.Show();
 
             Application app = new Application();
-            Application app2 = new Application();
+            //Only One Application object is allowed per app domain. If not exception.
+            //Application app2 = new Application();  //Uncommenting this will throw exception
             app.Run(winHelloWorld);
-            app2.Run(winHelloWorld);
+            Console.Read();
         }
     }
 }

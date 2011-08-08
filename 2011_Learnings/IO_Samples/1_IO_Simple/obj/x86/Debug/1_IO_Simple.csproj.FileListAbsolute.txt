@@ -1,0 +1,5 @@
+D:\2011\Learning_Workspace\2011_Learnings\IO_Samples\1_IO_Simple\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\2011\Learning_Workspace\2011_Learnings\IO_Samples\1_IO_Simple\bin\Debug\1_IO_Simple.exe
+D:\2011\Learning_Workspace\2011_Learnings\IO_Samples\1_IO_Simple\bin\Debug\1_IO_Simple.pdb
+D:\2011\Learning_Workspace\2011_Learnings\IO_Samples\1_IO_Simple\obj\x86\Debug\1_IO_Simple.exe
+D:\2011\Learning_Workspace\2011_Learnings\IO_Samples\1_IO_Simple\obj\x86\Debug\1_IO_Simple.pdb
