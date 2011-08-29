@@ -106,11 +106,11 @@ namespace DownloadMe
             {
                 if (listFileLinks.Count >= i)
                 {
-                    Console.WriteLine("start: {0} end: {1}",(i * fileLimitPerThread).ToString(), ((i + 1) * fileLimitPerThread).ToString());
+                    Console.WriteLine("start: {0} end: {1}",(i * fileLimitPerThread).ToString(), (i==4?listFileLinks.Count:(i + 1) * fileLimitPerThread).ToString());
                     int k = i; 
                     new Thread(() => 
                                     {
-                                        DownloadFile(k * fileLimitPerThread, (k + 1) * fileLimitPerThread);
+                                        DownloadFile(k * fileLimitPerThread, k == 4 ? listFileLinks.Count : (k + 1) * fileLimitPerThread);
                                     }
                                ).Start();
                 }
