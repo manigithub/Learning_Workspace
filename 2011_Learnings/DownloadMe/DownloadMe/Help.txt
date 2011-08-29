@@ -1,0 +1,3 @@
+downloadme -f ppt -r -s "http://www.google.com.sg/search?sourceid=chrome&ie=UTF-8&q=java+threading#sclient=psy&hl=en&source=hp&q=Operating+System+filetype%3Appt&pbx=1&oq=Operating+System+filetype:ppt&aq=f&aqi=&aql=1&gs_sm=e&gs_upl=5733l17126l3l17341l39l30l1l12l13l0l355l2746l3.9.2.2l16l0&bav=on.2,or.r_gc.r_pw.&fp=7b844b9309321aac&biw=888&bih=485" -t "C:\Banking_Fundamentals"
+
+downloadme -f pdf -r -s "http://www.textbooksonline.tn.nic.in/Std10.htm" -t "C:\Banking_Fundamentals" -ro "http://www.textbooksonline.tn.nic.in"

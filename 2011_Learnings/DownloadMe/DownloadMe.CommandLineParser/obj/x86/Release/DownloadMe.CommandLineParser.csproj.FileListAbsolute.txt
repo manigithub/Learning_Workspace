@@ -1,0 +1,5 @@
+D:\2011\Learning_Workspace\2011_Learnings\DownloadMe\DownloadMe.CommandLineParser\bin\Release\DownloadMe.CommandLineParser.pdb
+D:\2011\Learning_Workspace\2011_Learnings\DownloadMe\DownloadMe.CommandLineParser\obj\x86\Release\ResolveAssemblyReference.cache
+D:\2011\Learning_Workspace\2011_Learnings\DownloadMe\DownloadMe.CommandLineParser\obj\x86\Release\DownloadMe.CommandLineParser.pdb
+D:\2011\Learning_Workspace\2011_Learnings\DownloadMe\DownloadMe.CommandLineParser\bin\Release\DownloadMe.CommandLineParser.dll
+D:\2011\Learning_Workspace\2011_Learnings\DownloadMe\DownloadMe.CommandLineParser\obj\x86\Release\DownloadMe.CommandLineParser.dll

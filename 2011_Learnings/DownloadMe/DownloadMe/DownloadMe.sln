@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DownloadMe", "DownloadMe.csproj", "{DCF7CD5B-E373-4077-9005-78784274D6EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DownloadMe.CommandLineParser", "..\DownloadMe.CommandLineParser\DownloadMe.CommandLineParser.csproj", "{7A0AD5A0-AD72-4EA5-A67F-ED93490745B4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B3F5D33D-E698-4C1C-BC85-340FB7EEDABB}"
+	ProjectSection(SolutionItems) = preProject
+		Help.txt = Help.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DCF7CD5B-E373-4077-9005-78784274D6EB}.Debug|x86.ActiveCfg = Debug|x86
+		{DCF7CD5B-E373-4077-9005-78784274D6EB}.Debug|x86.Build.0 = Debug|x86
+		{DCF7CD5B-E373-4077-9005-78784274D6EB}.Release|x86.ActiveCfg = Release|x86
+		{DCF7CD5B-E373-4077-9005-78784274D6EB}.Release|x86.Build.0 = Release|x86
+		{7A0AD5A0-AD72-4EA5-A67F-ED93490745B4}.Debug|x86.ActiveCfg = Debug|x86
+		{7A0AD5A0-AD72-4EA5-A67F-ED93490745B4}.Debug|x86.Build.0 = Debug|x86
+		{7A0AD5A0-AD72-4EA5-A67F-ED93490745B4}.Release|x86.ActiveCfg = Release|x86
+		{7A0AD5A0-AD72-4EA5-A67F-ED93490745B4}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

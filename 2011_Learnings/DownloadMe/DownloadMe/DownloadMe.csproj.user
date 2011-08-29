@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectView>ShowAllFiles</ProjectView>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <StartArguments>-f ppt -r -s "http://www.google.com.sg/search?sourceid=chrome&amp;ie=UTF-8&amp;q=java+threading#sclient=psy&amp;hl=en&amp;source=hp&amp;q=Operating+System+filetype%3Appt&amp;pbx=1&amp;oq=Operating+System+filetype:ppt&amp;aq=f&amp;aqi=&amp;aql=1&amp;gs_sm=e&amp;gs_upl=5733l17126l3l17341l39l30l1l12l13l0l355l2746l3.9.2.2l16l0&amp;bav=on.2,or.r_gc.r_pw.&amp;fp=7b844b9309321aac&amp;biw=888&amp;bih=485" -t "C:\Banking_Fundamentals"</StartArguments>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <StartArguments>downloadme -f ppt -r -s "http://www.google.com.sg/search?sourceid=chrome&amp;ie=UTF-8&amp;q=java+threading#sclient=psy&amp;hl=en&amp;source=hp&amp;q=Operating+System+filetype%3Appt&amp;pbx=1&amp;oq=Operating+System+filetype:ppt&amp;aq=f&amp;aqi=&amp;aql=1&amp;gs_sm=e&amp;gs_upl=5733l17126l3l17341l39l30l1l12l13l0l355l2746l3.9.2.2l16l0&amp;bav=on.2,or.r_gc.r_pw.&amp;fp=7b844b9309321aac&amp;biw=888&amp;bih=485" -t "C:\Banking_Fundamentals"</StartArguments>
+  </PropertyGroup>
+</Project>
