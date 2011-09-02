@@ -64,12 +64,12 @@ namespace DownloadMe
             }
             while (bytesRead > 0);
 
-            return sbUrlContent.ToString();
+            return urlContent.ToString();
         }
 
         public String GetURLs(String Content)
         {
-
+            throw new NotImplementedException();
         }
     }
 
