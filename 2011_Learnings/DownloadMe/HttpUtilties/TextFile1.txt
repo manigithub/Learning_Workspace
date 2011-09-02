@@ -1,0 +1,4 @@
+﻿   if(_isNetworkCredentialRequired)
+            {
+                request.Credentials = new NetworkCredential(_userDetails.UserId, _userDetails.Password, _userDetails.Domain);
+            }
